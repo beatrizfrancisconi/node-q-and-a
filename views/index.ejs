@@ -1,0 +1,44 @@
+<%- include ('partials/header'); %>
+
+        <div class="row">
+            <div class="col-8">
+                <h2>Questions</h2>
+                <h2> ↓ </h2>
+                <% Question.forEach(Question => { %>
+                <div class="card">
+                    <div class="card-body">
+                        <label>
+                            <div class="10">
+                                <b><%= Question.title %></b><br>
+                                <%= Question.description %>
+                            </div>
+                        </label><br>
+                        <a href="/question/<%=Question.id %>"><button class="btn btn-dark"> Answer</button></a>
+                    </div>
+                </div>
+                <br>
+                <% }); %>
+            </div>
+     
+        <div class="col-4">
+                <h2>Ask New Question</h2>
+                <h2> ↓ </h2>
+
+                <form method="POST" action="/savequestion">
+                    <div class="card">
+                        <div class="card-header">New Question</div>
+                        <div class="card-body">
+                            <label>Title</label>
+                            <input type="text" class="form-control" name="title" placeholder="Question's title..."><br>
+                            <label>Description</label>
+                            <textarea class="form-control" name="description"
+                                placeholder="Describe here..."></textarea><br>
+                            <button type="submit" class="btn btn-dark"> Submit!</button>
+                           
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+<%- include ('partials/typewriterAnimation'); %>
+<%- include ('partials/footer'); %>

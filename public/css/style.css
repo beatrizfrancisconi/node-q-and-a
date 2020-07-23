@@ -1,0 +1,22 @@
+body{margin:0;padding:0;box-sizing:border-box;background-color: #212124;}
+.animatedText, h2,h1{text-align: center;font-family: 'Courier New', Courier, monospace;color: #fff;}
+a{color:#dedcda;text-decoration: underline;}
+footer a:hover{color:white;transition:1s;}
+
+/*Animation starts here */
+.animatedText::after {
+    content: '|';
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .7s infinite;
+ }
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+/*Animation ends here*/

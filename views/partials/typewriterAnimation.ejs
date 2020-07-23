@@ -1,0 +1,11 @@
+<script>
+    function typeWriter(element) {
+        const arrayText = element.innerHTML.split('');
+        element.innerHTML = '';
+        arrayText.forEach((letter, i) => { //letter and index
+            setTimeout(() => element.innerHTML += letter, 35 * i);
+        });
+    }
+    const catchPhrase = document.querySelector('.animatedText');
+    typeWriter(catchPhrase);
+</script>
