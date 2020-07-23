@@ -30,7 +30,7 @@ Recursos utilizados no projeto:
 var user = ""; <br>
 var pass = ""; <br>
 var host = ""; <br>
-<p>Altere os valores de acordo com o seu banco de dados Mysql</p>
+<p>Altere os valores de acordo com o seu banco de dados Mysql.</p>
 
 <h1>Rotas</h1>
 <p>Esta tabela abaixo descreve como as rotas se comportam nesta aplicação.</p>
