@@ -26,7 +26,7 @@ Recursos utilizados no projeto:
 
 <hr>
 <h1> Banco de dados </h1>
-<p>Para configurar o banco de dados da aplicação, basta abrir o arquivo database.js (localizo dentro da pasta database) e alterar os valores das seguintes variaveis:</p>
+<p>Para configurar o banco de dados da aplicação, basta abrir o arquivo database.js (localizado dentro da pasta database) e alterar os valores das seguintes variaveis:</p>
 var user = ""; <br>
 var pass = ""; <br>
 var host = ""; <br>
