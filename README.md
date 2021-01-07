@@ -1,7 +1,7 @@
 # node-q-and-a
-Aplicação de perguntas e respostas.
-Aplicação de perguntas e respostas desenvolvida com Node.js e MySQL
-Projeto fictício desenvolvido para estudar os conceitos de Node.js.
+Aplicação de perguntas e respostas.<br>
+Aplicação de perguntas e respostas desenvolvida com Node.js e MySQL<br>
+Projeto fictício de nível iniciante desenvolvido para estudar os conceitos de Node.js.<br>
 
 Recursos utilizados no projeto:
 - Node.Js;
